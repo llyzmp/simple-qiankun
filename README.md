@@ -1,20 +1,4 @@
-# qiankun 微前端框架揭秘
-
-通过手写一个 mini 版 qiankun 来了解 qiankun 的运作原理。
-
-## 准备练习案例
-
-- 一个主应用：Vue 2
-- 三个子应用
-  - Vue 2
-  - Vue 3
-  - React
-
-将主应用与子应用通过 qiankun 启用微前端框架。
-
-## qiankun 回顾
-
-参考 qiankun 官方文档：https://qiankun.umijs.org/。
+# qiankun 微前端框架
 
 ## 微前端实现原理
 
