@@ -5,7 +5,8 @@ import store from './store'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import './styles/index.css'
-import { registerMicroApps, start } from 'qiankun'
+// import { registerMicroApps, start } from 'qiankun'
+import { registerMicroApps, start } from './simple-micro'
 
 Vue.config.productionTip = false
 
