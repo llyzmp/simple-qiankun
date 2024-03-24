@@ -1,3 +1,4 @@
+import { handleRouter } from "./handle-router"
 import { rewriteRouter } from "./rewrite-router"
 
 let _apps = []
@@ -19,9 +20,10 @@ export const start = () => {
      * 需要通过重写方式进行拦截
      */
     rewriteRouter()
-  // 2.查找符合条件的微应用
-
-  // 3.加载子应用
-
-  // 4.渲染子应用
+    // 2.查找符合条件的微应用
+    // 3.加载子应用
+    // 4.渲染子应用
+    
+    // 初始化匹配路由
+    handleRouter()
 }
