@@ -1,3 +1,4 @@
+import { rewriteRouter } from "./rewrite-router"
 
 let _apps = []
 
@@ -17,7 +18,7 @@ export const start = () => {
      *  pushState,replaceState
      * 需要通过重写方式进行拦截
      */
-    
+    rewriteRouter()
   // 2.查找符合条件的微应用
 
   // 3.加载子应用
