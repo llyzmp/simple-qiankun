@@ -6,6 +6,7 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import './styles/index.css'
 // import { registerMicroApps, start } from 'qiankun'
+
 import { registerMicroApps, start } from './simple-micro'
 
 Vue.config.productionTip = false
@@ -38,8 +39,8 @@ registerMicroApps([
 
 start({
   sandbox: {
-    // strictStyleIsolation: true // 使用 shadow dom 解决样式冲突
-    experimentalStyleIsolation: true // 通过添加选择器范围来解决样式冲突
+    strictStyleIsolation: true // 使用 shadow dom 解决样式冲突
+    // experimentalStyleIsolation: true // 通过添加选择器范围来解决样式冲突
   }
 })
 
